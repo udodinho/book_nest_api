@@ -1,7 +1,6 @@
 import { Test, TestingModule } from "@nestjs/testing"
 import { BookService } from "./book.service"
-import { getModelToken } from "@nestjs/mongoose"
-import { Book, Category } from "./schemas/book.schema"
+import { Category } from "./schemas/book.schema"
 import { BookController } from "./book.controller"
 import { PassportModule } from "@nestjs/passport"
 import { User } from "src/auth/schemas/user.schema"
